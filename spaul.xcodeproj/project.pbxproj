@@ -11,6 +11,8 @@
 		08AC109329FECD4900A39449 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AC109229FECD4900A39449 /* ContentView.swift */; };
 		08AC109529FECD4C00A39449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08AC109429FECD4C00A39449 /* Assets.xcassets */; };
 		08AC109829FECD4C00A39449 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08AC109729FECD4C00A39449 /* Preview Assets.xcassets */; };
+		08AC109F29FF0C3600A39449 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AC109E29FF0C3600A39449 /* API.swift */; };
+		08AC10A129FF0DB400A39449 /* Standings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AC10A029FF0DB400A39449 /* Standings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		08AC109229FECD4900A39449 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		08AC109429FECD4C00A39449 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08AC109729FECD4C00A39449 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08AC109E29FF0C3600A39449 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		08AC10A029FF0DB400A39449 /* Standings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Standings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		08AC108F29FECD4900A39449 /* spaul */ = {
 			isa = PBXGroup;
 			children = (
+				08AC109E29FF0C3600A39449 /* API.swift */,
+				08AC10A029FF0DB400A39449 /* Standings.swift */,
 				08AC109029FECD4900A39449 /* spaulApp.swift */,
 				08AC109229FECD4900A39449 /* ContentView.swift */,
 				08AC109429FECD4C00A39449 /* Assets.xcassets */,
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				08AC109329FECD4900A39449 /* ContentView.swift in Sources */,
+				08AC10A129FF0DB400A39449 /* Standings.swift in Sources */,
+				08AC109F29FF0C3600A39449 /* API.swift in Sources */,
 				08AC109129FECD4900A39449 /* spaulApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +278,7 @@
 				DEVELOPMENT_TEAM = 3865YC2YEY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Standings;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -296,6 +305,7 @@
 				DEVELOPMENT_TEAM = 3865YC2YEY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Standings;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
 				LD_RUNPATH_SEARCH_PATHS = (
